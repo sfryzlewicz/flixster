@@ -32,10 +32,7 @@ class MovieViewController: UIViewController, UITableViewDataSource, UITableViewD
         
         return cell
     }
-    
-    
-    
-    
+
     var movies = [[String : Any]]()
     @IBOutlet weak var tableView: UITableView!
     
